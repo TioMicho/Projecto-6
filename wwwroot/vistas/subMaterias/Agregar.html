@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Materias</title>
+</head>
+<body>
+    <h1>Comunidad IT</h1>
+    <h2>Agregar Materia</h2>
+    <form>
+        <div>
+            <label for="nombre">Nombre de materia</label>
+            <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+            <label for="cod">codigo unico</label>
+            <input type="number" id="cod" name="cod" required />
+        </div>
+        <div>
+            <label for="imp">tipo de implementacion</label>
+            <input type="radio" name="imp" value="Teorico">Teorico
+            <input type="radio" name="imp" value="Practico">Practico
+            <input type="radio" name="imp" value="TyP">Teorico-practico
+            <input type="radio" name="imp" value="MIA">no sé, el profe nuca vino.
+        </div>
+
+        <div>
+            <input type="submit" value="Guardar">
+        </div>
+    </form>
+    <a href="../../index.html">cancelar y volver al indice</a>
+</body>
+</html>
