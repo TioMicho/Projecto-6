@@ -1,0 +1,19 @@
+﻿body {   
+    background-color:silver;
+}
+h1 {
+    background-color: green;
+    color:greenyellow;
+}
+
+h2 
+{
+    background-color:darkgreen;
+    color:greenyellow;
+    font-style:oblique;
+}
+label 
+{
+    color:greenyellow;
+  
+}
