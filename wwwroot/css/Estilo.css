@@ -1,19 +1,45 @@
-﻿body {   
-    background-color:silver;
+﻿body {
+    font-family:Consolas;
+    background-color: black;
+    color: greenyellow;
 }
 h1 {
+    text-align:center;
     background-color: green;
-    color:greenyellow;
 }
 
 h2 
 {
     background-color:darkgreen;
-    color:greenyellow;
-    font-style:oblique;
 }
-label 
+a
 {
+    font-variant-caps:titling-caps;
+}
+    a:link, a:visited {
+        background-color: darkgreen;
+        color: greenyellow;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+a:hover, a:active {
+    background-color: green;
+}
+div.bttn
+{
+    background-size:contain;
+    background-image:url(../sprite/Sp1.png);
+}
+input:hover {
+    background-color: #808080;
     color:greenyellow;
-  
+}
+input
+{
+    background-color:#808080;
+    
 }
